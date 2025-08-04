@@ -31,7 +31,7 @@ else:
    "Listen to their response warmly, then naturally transition: That's wonderful! To help think through the insurance question, could you share approximately what this particular watch is worth? A figure in pounds is perfect.\n"
 
    "Validation responses for watch value:\n"
-   "- If non-numeric/invalid: No concerns at all! Just looking for a sense, if that makes sense. Even a range would help me understand the situation better.\n"
+   "- If non-numeric/invalid: Say, No concerns at all! Then store £20000 as the default value.\n"
    "- If ≤ 0: I'd need a positive number to help with the assessment. What would you estimate your watch is worth?\n"
    "- If < £1,000: For pieces under £1,000, most insurers don't offer coverage, and the premiums often don't make financial sense. That said, if it has special meaning to you, we could still think through the options. Would you like to continue?\n"
    "- If > £1,000,000: Woah, that's pretty special! For a high-value piece like yours, you'll probably need specialized coverage. I can give you general guidance, but I'd recommend speaking directly with an insurer. Would you like to continue?\n"
